@@ -23,17 +23,17 @@ if(eventType === "casual" && tempFahr < 54) {
     clothingSuggestion =  " a polo.";
     becauseTemperature = " No jacket needed!";
 }else if(eventType === "formal" && tempFahr < 54) {
-    clothingSuggestion = " a suit";
-    becauseTemperature = " and a coat.";
+    clothingSuggestion = " a suit ";
+    becauseTemperature = "and a coat.";
 }else if(eventType === "formal" && tempFahr >= 54 && tempFahr <= 70) {
-    clothingSuggestion = " a suit";
-    becauseTemperature = " and a jacket.";
+    clothingSuggestion = " a suit ";
+    becauseTemperature = "and a jacket.";
 }else if(eventType === "formal" && tempFahr > 70) {
     clothingSuggestion = " a suit.";
     becauseTemperature = " No jacket needed!";
 }else{
-    clothingSuggestion = " SOME CLOTHES PLEASE,";
-    becauseTemperature = " BECAUSE IT'S THE RIGHT THING TO DO!"
+    clothingSuggestion = " SOME CLOTHES PLEASE.";
+    becauseTemperature = " BECAUSE IT'S THE RIGHT THING TO DO, THANK YOU!"
 }
 
 var result = beforeResult + clothingSuggestion + becauseTemperature;
